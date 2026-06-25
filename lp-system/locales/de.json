@@ -1,0 +1,199 @@
+{
+  "example-lp": {
+    "seo": {
+      "title": "Fahrly – Dispositionssoftware für Amazon DSPs & Lieferflotten",
+      "description": "Fahrly gibt Amazon-DSP-Betreibern Echtzeit-Einblick in Routenprofitabilität, Überstundenkosten und Fahrer-Performance. Schluss mit Excel – Entscheidungen auf Datenbasis.",
+      "keywords": "Dispositionssoftware, Fuhrparkmanagement Software, Fahrerverwaltung Software, Tourenplanung Software, Flottenmanagement Software, Amazon DSP Software",
+      "ogLocale": "de_DE"
+    },
+    "navbar": {
+      "links": {
+        "features": "Funktionen",
+        "howItWorks": "Funktionsweise",
+        "pricing": "Preise",
+        "faq": "FAQ"
+      },
+      "cta": {
+        "login": "Anmelden",
+        "trial": "Kostenlos testen"
+      }
+    },
+    "hero": {
+      "eyebrow": "Dispositionssoftware für Amazon DSPs",
+      "title": "Sie fahren mehr Touren. Der Gewinn bleibt aus. Das ist der Grund.",
+      "subtitle": "Fahrly ist die Dispositionssoftware, die Amazon-DSP-Betreibern zeigt, wo Überstunden, Fahrerausfälle und unausgewogene Touren Geld kosten — in Echtzeit, ohne Excel. Optimieren Sie Ihren Betrieb mit unserer Fuhrparkmanagement Software.",
+      "primaryCta": "Kostenlos testen",
+      "secondaryCta": "Funktionsweise ansehen",
+      "socialProof": "Über 500 Flottenbetreiber in Deutschland vertrauen Fahrly",
+      "dashboard": {
+        "title": "Heutige Flotten-Performance",
+        "metric1": {
+          "label": "Überstunden",
+          "value": "47h",
+          "badge": "↑ 23% vs. Vorwoche"
+        },
+        "metric2": {
+          "label": "Abgeschlossene Touren",
+          "value": "83/91",
+          "badge": "91%"
+        },
+        "metric3": {
+          "label": "Gewinn pro Tour",
+          "value": "€12,40",
+          "badge": "↓ €3,20 Verlust durch Überstunden"
+        }
+      }
+    },
+    "problem": {
+      "eyebrow": "Was Sie heute nicht sehen, kostet Sie morgen Geld",
+      "title": "Die meisten DSP-Betreiber wissen nicht, was Überstunden wirklich kosten. Bis es zu spät ist.",
+      "subtitle": "Excel und WhatsApp wurden nicht für 50-Fahrer-Flotten gebaut. Jede Stunde ohne Sichtbarkeit ist eine Stunde vermeidbarer Verlust.",
+      "cards": [
+        {
+          "title": "Überstunden fressen Ihre Margen auf",
+          "body": "Ihre Fahrer kommen regelmäßig 45–90 Minuten zu spät. Sie sehen es erst bei der Lohnabrechnung – dann ist der Schaden bereits angerichtet.",
+          "stat": "Durchschn. 8.400 €/Monat versteckte Überstundenkosten"
+        },
+        {
+          "title": "Tour-Arbeitslast ist reine Schätzung",
+          "body": "Einige Fahrer sind um 15 Uhr fertig. Andere noch um 19 Uhr. Ohne Daten zur Tourenbalance verlassen Sie sich auf Glück.",
+          "stat": "31 % der Touren sind täglich unausgewogen"
+        },
+        {
+          "title": "Ihre besten Fahrer kündigen",
+          "body": "Fahrerfluktuation kostet 3.000–6.000 € pro Ersatz. Die meisten DSPs haben keinen Überblick darüber, welche Fahrer gefährdet sind.",
+          "stat": "DSP-Fahrerfluktuation im Schnitt: 74 % jährlich"
+        }
+      ],
+      "bottom": "Es gibt einen besseren Weg, Ihre Flotte zu führen.",
+      "cta": "Wie Fahrly funktioniert ↓"
+    },
+    "features": {
+      "eyebrow": "Moderne Flottenmanagement Software für DSPs",
+      "headline": "Sehen Sie, was Sie Geld kostet. Beheben Sie es sofort.",
+      "subheadline": "Fahrly bietet Dispatchern, Betriebsleitern und Flottenbesitzern eine zentrale Ansicht jeder Tour, jedes Fahrers und jedes Fahrzeugs – in Echtzeit.",
+      "list": [
+        {
+          "title": "Tourenplanung Software & Profitabilität",
+          "body": "Hören Sie auf zu raten, welche Routen Gewinn bringen. Fahrly berechnet den Gewinn pro Route unter Berücksichtigung von Fahrerlöhnen, Überstunden und Fahrzeugkosten in Echtzeit."
+        },
+        {
+          "title": "Überstunden-Prognose in der Dispositionssoftware",
+          "body": "Wissen Sie, wer Überstunden macht, bevor es passiert. Unser System alarmiert Sie mitten in der Tour, damit Sie sofort eingreifen können."
+        },
+        {
+          "title": "Integrierte Fahrerverwaltung Software",
+          "body": "Verfolgen Sie Verdienst pro Stunde und Pünktlichkeit. Halten Sie Ihre Top-Performer durch faire, datenbasierte Arbeitslastverteilung."
+        },
+        {
+          "title": "Vollständige Flottenkontrolle",
+          "body": "Sehen Sie, welche Fahrzeuge unterausgelastet sind oder Wartung benötigen. Treffen Sie Entscheidungen auf Basis präziser Live-Daten."
+        }
+      ]
+    },
+    "howItWorks": {
+      "eyebrow": "Einrichtung in unter 10 Minuten",
+      "headline": "Drei Schritte: von Excel-Chaos zu operativer Klarheit",
+      "steps": [
+        {
+          "title": "Amazon DSP Daten verknüpfen",
+          "body": "Verbinden Sie Ihr Dashboard per API. Fahrly importiert Touren, Fahrerdaten und Lieferdaten automatisch. Kein manueller Export nötig."
+        },
+        {
+          "title": "Kostenparameter festlegen",
+          "body": "Geben Sie Stundenlöhne, Kraftstoffkosten und Leasingraten ein. Fahrly berechnet die echte Profitabilität pro Tour."
+        },
+        {
+          "title": "Verluste identifizieren — heute noch",
+          "body": "Innerhalb weniger Stunden sehen Sie Ihre erste Profitabilitätsanalyse. Überstunden. Defizitäre Touren. Alles in einem Dashboard."
+        }
+      ],
+      "quote": {
+        "text": "In der ersten Woche fand ich heraus, dass wir allein bei einem Fahrzeug 620 €/Monat verloren haben. Das hätte ich in Excel nie gefunden.",
+        "author": "DSP-Besitzer, Köln (12 Vans, 18 Fahrer)"
+      },
+      "cta": "Kostenlos testen — kein Vertrag erforderlich"
+    },
+    "testimonials": {
+      "eyebrow": "Vertraut von über 500 Flottenbetreibern",
+      "headline": "Was DSP-Besitzer nach dem ersten Monat sagen",
+      "google": "5.0 / 5.0 bei Google Rezensionen",
+      "logos": "Flottenbetreiber, die Fahrly vertrauen"
+    },
+    "pricing": {
+      "eyebrow": "Einfache Preisgestaltung",
+      "headline": "Sehen Sie Ihre Flottenrentabilität ab 50 €/Monat",
+      "subheadline": "Keine Verträge. Keine Einrichtungsgebühr. Jederzeit kündbar. Upgraden Sie bei Bedarf.",
+      "toggle": {
+        "monthly": "Monatlich",
+        "annual": "Jährlich",
+        "save": "20 % sparen"
+      },
+      "tiers": {
+        "core": {
+          "name": "Core",
+          "tagline": "Sehen, was reinkommt",
+          "for": "1–2 Depot-Betreiber, die Sichtbarkeit suchen"
+        },
+        "operations": {
+          "name": "Operations",
+          "tagline": "Sehen, was reinkommt und was rausgeht",
+          "for": "Wachsende DSPs mit Bedarf an Kostenkontrolle",
+          "badge": "Am beliebtesten"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "tagline": "Sehen, wo Geld verloren geht",
+          "for": "Mehrdepot-Betreiber mit vollem Fokus",
+          "cta": "Beratung buchen"
+        }
+      },
+      "finePrint": "Alle Pakete beinhalten einen 14-tägigen Testzeitraum. Keine Kreditkarte erforderlich."
+    },
+    "faq": {
+      "headline": "Alles, was Sie vor dem Start wissen müssen",
+      "items": [
+        {
+          "question": "Ist Fahrly mit der Amazon DSP Konsole kompatibel?",
+          "answer": "Ja. Fahrly verbindet sich sicher mit Ihren Daten und bereitet diese so auf, dass Sie die Rentabilität jeder Tour sofort sehen."
+        },
+        {
+          "question": "Wie hilft diese Flottenmanagement Software bei der Kostensenkung?",
+          "answer": "Wir identifizieren Überstundenmuster und unausgewogene Touren in Echtzeit. Dadurch können Dispatcher korrigierend eingreifen, bevor unnötige Kosten entstehen."
+        },
+        {
+          "question": "Ist die Einrichtung kompliziert?",
+          "answer": "Nein. Die meisten DSPs sind in unter 10 Minuten startklar. Da keine Hardware-Installation in den Fahrzeugen nötig ist, gibt es keine Ausfallzeiten."
+        },
+        {
+          "question": "Kann ich meine bestehenden Excel-Tabellen importieren?",
+          "answer": "Sie werden sie nicht mehr brauchen. Aber ja, historische Daten können importiert werden, um Trends bei der Fahrerleistung und Fahrzeugnutzung zu analysieren."
+        }
+      ]
+    },
+    "finalCta": {
+      "headline": "Hören Sie auf, Ihre Flotte zu verwalten. Fangen Sie an, sie zu verstehen.",
+      "subheadline": "Über 500 Flottenunternehmen sehen jetzt Überstundenkosten, Tourenprofitabilität und Fahrer-Performance in Echtzeit — ohne Tabellen.",
+      "primary": "Kostenlos testen — 14 Tage gratis",
+      "secondary": "Demo buchen",
+      "finePrint": "Keine Kreditkarte erforderlich. Kein Vertrag. Jederzeit kündbar.",
+      "trust": {
+        "gdpr": "DSGVO-konform",
+        "setup": "Einrichtung in unter 15 Min.",
+        "support": "Support auf Deutsch & Englisch"
+      }
+    },
+    "footer": {
+      "tagline": "Operative Transparenz durch Flottenmanagement Software für Amazon-DSPs und Lieferflotten.",
+      "madeFor": "Entwickelt für Amazon DSPs in Deutschland",
+      "links": {
+        "product": "Produkt",
+        "legal": "Rechtliches",
+        "privacy": "Datenschutz",
+        "terms": "AGB",
+        "imprint": "Impressum"
+      },
+      "lang": "🇬🇧 English | 🇩🇪 Deutsch"
+    }
+  }
+}

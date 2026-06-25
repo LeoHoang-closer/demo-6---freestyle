@@ -1,0 +1,174 @@
+{
+  "example-lp": {
+    "hero": {
+      "eyebrow": "Category · Tagline",
+      "title": "The Command Center for Your Entire Ride-Hailing Fleet",
+      "subtitle": "Maximize vehicle utilization, streamline driver payouts, and slash operational overhead. Fahrly gives modern fleet owners the real-time visibility and automated tools needed to scale profit per mile.",
+      "primaryCtaLabel": "Get Started",
+      "secondaryCtaLabel": "Book a Demo"
+    },
+    "valueProps": {
+      "heading": "Why managing a fleet feels like a losing battle right now",
+      "subtitle": "Traditional fleet management tools weren't built for the rapid, on-demand nature of modern ride-hailing networks.",
+      "items": [
+        {
+          "title": "Where are my drivers and why is revenue dipping?",
+          "body": "You are constantly shifting between multiple driver apps and spreadsheets just to track basic metrics. Without consolidated real-time tracking, unassigned vehicles sit idle, costing you money every minute."
+        },
+        {
+          "title": "The manual payout nightmare",
+          "body": "Calculating complex commission splits, fuel deductions, and performance bonuses manually drains hours of leadership time every week—and a single data entry error kills driver trust."
+        },
+        {
+          "title": "Reactive, expensive maintenance",
+          "body": "Relying on drivers to self-report vehicle issues means you only find out a car is broken after it breaks down on a shift. Unexpected repairs crush your weekly utilization targets."
+        }
+      ]
+    },
+    "features": {
+      "heading": "Three steps to absolute fleet control",
+      "subtitle": "Three steps from problem to solved.",
+      "items": [
+        {
+          "title": "Plug into your existing platforms",
+          "body": "Seamlessly connect Fahrly with Uber, Lyft, Bolt, or your custom ride-hailing software via native APIs. Import your vehicle roster and driver profiles in under ten minutes."
+        },
+        {
+          "title": "Automate dispatch and driver workflows",
+          "body": "Let Fahrly track live vehicle locations, automate shift handovers, and calculate localized dynamic performance bonuses instantly without manual oversight."
+        },
+        {
+          "title": "Watch your profit margins expand",
+          "body": "Minimize vehicle downtime using predictive maintenance alerts, retain your best drivers with fast, accurate payouts, and make data-backed scaling decisions."
+        }
+      ]
+    },
+    "pricing": {
+      "heading": "Simple pricing built to scale with your fleet",
+      "subtitle": "No surprises. Pick what fits. Monthly • Annual • Save 20%",
+      "plans": [
+        {
+          "name": "Core",
+          "price": "€50 / month",
+          "subtitle": "Team • monthly billing",
+          "description": "See what comes in",
+          "features": [
+            "Trip planning",
+            "Driver performance analytics",
+            "Email support within 24 hours"
+          ],
+          "bottomNoteLeft": "1 user",
+          "bottomNoteRight": "€30 / month",
+          "ctaLabel": "Start Core"
+        },
+        {
+          "name": "Operations",
+          "price": "€100 / month",
+          "subtitle": "Team • monthly billing",
+          "description": "See what comes in and what goes out",
+          "features": [
+            "Everything in Core",
+            "Time tracking",
+            "Payroll calculator",
+            "E-signature"
+          ],
+          "ctaLabel": "Start Operations"
+        },
+        {
+          "name": "Enterprise",
+          "price": "Price on request",
+          "subtitle": "Phone call required",
+          "description": "See where money is being lost",
+          "features": [
+            "Everything in Operations",
+            "Fleet management",
+            "Compliance",
+            "Driver's licence checks"
+          ],
+          "ctaLabel": "Book a call"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Common questions",
+      "subtitle": "Everything you need to know before you decide.",
+      "items": [
+        {
+          "question": "Does Fahrly replace our ride-hailing provider apps?",
+          "answer": "No, Fahrly works alongside them. We integrate directly with platforms like Uber, Lyft, and Grab to aggregate your operations, tracking data, and earnings into a single consolidated hub built strictly for the business owner."
+        },
+        {
+          "question": "How exactly does the automated payout engine work?",
+          "answer": "You set the parameters—such as base rental fees, fuel splits, or commission percentages. Fahrly automatically processes the incoming ride data, runs calculations per driver, and generates ready-to-pay transaction invoices with zero manual math required."
+        },
+        {
+          "question": "Is there a long-term contract requirement?",
+          "answer": "Not at all. Both our Starter and Pro plans are billed month-to-month, allowing you to cancel or adjust your subscription tier seamlessly as your vehicle count fluctuates."
+        }
+      ]
+    },
+    "mockDashboard": {
+      "user": "User Name",
+      "navItems": [
+        { "label": "Dashboard", "active": true },
+        { "label": "FahrlyGO" },
+        { "label": "Fleet" },
+        { "label": "HR" },
+        { "label": "Compliance" },
+        { "label": "Insights" },
+        { "label": "Finance" }
+      ],
+      "footerItems": [
+        "Integration",
+        "9PM GmbH",
+        "Support",
+        "v1.0.0"
+      ],
+      "pageTitle": "Dashboard",
+      "mapTitle": "Live fleet map",
+      "mapItems": [
+        { "initials": "IH", "name": "Ibrahim H.", "status": "On trip", "statusColor": "text-rose-500" },
+        { "initials": "HB", "name": "Houssem Ben Ali", "status": "Online", "statusColor": "text-emerald-500" },
+        { "initials": "MY", "name": "Müzeyen Yildiz", "status": "En route", "statusColor": "text-amber-500" },
+        { "initials": "AA", "name": "Abdul Adem B.", "status": "On trip", "statusColor": "text-rose-500" }
+      ],
+      "metrics": [
+        { "label": "TOTAL EARNINGS", "value": "1.633,63 €", "trend": "+0,0 %" },
+        { "label": "TOTAL TRIPS", "value": "104", "trend": "+0,0 %" },
+        { "label": "ACTIVE DRIVERS", "value": "17/24", "status": "Active", "statusColor": "text-emerald-600 dark:text-emerald-400" },
+        { "label": "UTILISATION", "value": "71 %", "subtext": "Fleet rating" }
+      ],
+      "topPerformer": {
+        "driver": "Ibrahim Yakan",
+        "value": "34,43 €",
+        "subtext": "5 Trips • 3,1 h"
+      },
+      "fleetStatus": [
+        { "label": "Total Active", "value": "4" },
+        { "label": "Online", "value": "1" },
+        { "label": "En Route", "value": "0" },
+        { "label": "On Trip", "value": "3" }
+      ],
+      "todaysPerformance": [
+        { "label": "Avg fare", "value": "15,71 €" },
+        { "label": "Avg €/Hour", "value": "27,64 €" }
+      ],
+      "table": {
+        "title": "Active Driver Roster & Shift Status",
+        "columns": ["Driver Name", "Vehicle ID", "Current Shift Hours", "Real-Time Fare Revenue", "Status"],
+        "rows": [
+          ["Row 1 A", "Row 1 B", "Row 1 C", "00:00", "—"],
+          ["Row 2 A", "Row 2 B", "Row 2 C", "00:00", "—"],
+          ["Row 3 A", "Row 3 B", "Row 3 C", "00:00", "—"],
+          ["Row 4 A", "Row 4 B", "Row 4 C", "00:00", "—"],
+          ["Row 5 A", "Row 5 B", "Row 5 C", "00:00", "—"]
+        ]
+      }
+    },
+    "finalCta": {
+      "heading": "Ready to take control of your fleet?",
+      "subtitle": "Join the operators already scaling their revenue per mile.",
+      "ctaLabel": "Get Started"
+    }
+  }
+}
