@@ -5,5 +5,6 @@
   "compatibility_flags": [
     "nodejs_compat"
   ],
-  "pages_build_output_dir": "out"
+  "pages_build_output_dir": ".",
+  "pages_build_command": "npm run build"
 }

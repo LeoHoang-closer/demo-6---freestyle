@@ -1,5 +1,5 @@
 import React from 'react';
-import { spacing, typography, colors, components, ColorTheme } from '../../config/design-system';
+import { spacing, components, ColorTheme } from '../../config/design-system';
 
 export type FAQItemProps = {
   theme: ColorTheme;
@@ -14,10 +14,7 @@ export type FAQItemProps = {
  * Owns: Accordion behavior, arrow rotation, collapse motion, ARIA attributes, divider styling
  * Does NOT own: Section-level spacing
  */
-export function FAQItem({ theme, question, answer, index }: FAQItemProps) {
-  const themeColors = colors[theme];
-  const isDark = theme === 'dark';
-
+export function FAQItem({ question, answer, index }: Omit<FAQItemProps, 'theme'>) {
   return (
     <details className={spacing.block.y.lg}>
       <summary 

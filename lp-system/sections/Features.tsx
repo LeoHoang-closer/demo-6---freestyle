@@ -132,7 +132,7 @@ export function Features({ locale = 'en' }: { locale?: 'en' | 'de' }) {
 }
 
 function RouteProfitabilityMockup({ locale }: { locale: string }) {
-  const isEn = locale === 'en';
+  void locale; // Reserved for localization
   const rows = [
     { id: "RT-041", driver: "J. Müller", rev: "€284", ot: "€0", profit: "€284", status: "green" },
     { id: "RT-038", driver: "K. Ahmed", rev: "€241", ot: "€47", profit: "€194", status: "green" },
@@ -243,7 +243,7 @@ function DriverPerformanceMockup({ locale }: { locale: string }) {
 }
 
 function FleetUtilizationMockup({ locale }: { locale: string }) {
-  const isEn = locale === 'en';
+  void locale; // Reserved for localization
   const vehicles = [
     { plate: "BN-AB 1042", val: 89, color: "bg-green-500" },
     { plate: "BN-XY 8814", val: 74, color: "bg-green-500" },

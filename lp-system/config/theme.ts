@@ -1,4 +1,4 @@
-import { colors, ColorTheme } from './design-system';
+import { ColorTheme } from './design-system';
 
 export type ThemeName = ColorTheme;
 

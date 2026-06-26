@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { ColorTheme } from '../config/design-system';
+import Image from 'next/image';
 import logo from '../image/logo.png';
 
 type MetricCard = {
@@ -155,12 +156,7 @@ export function MockDashboard(props: MockDashboardProps) {
     { label: 'Finanzen', icon: <Icons.Coins /> },
   ];
 
-  const statusLabelMap: Record<string, string> = {
-    'Total Active': quickInsights.totalActive,
-    'Online': quickInsights.online,
-    'En Route': quickInsights.enRoute,
-    'On Trip': quickInsights.onTrip,
-  };
+
 
   const metrics = props.metrics || [];
 
@@ -170,7 +166,12 @@ export function MockDashboard(props: MockDashboardProps) {
       <aside className="w-60 bg-[var(--dash-sidebar-bg)] border-r border-[var(--dash-sidebar-border)] flex flex-col h-full flex-shrink-0 transition-colors duration-200">
         <div className="flex items-center gap-2 p-6">
           <div className="h-8 w-8 rounded-lg overflow-hidden flex items-center justify-center shadow-sm">
-            <img src={logo.src} alt="Logo" className="h-full w-full object-cover" />
+            <Image 
+              src={logo} 
+              alt="Logo" 
+              className="h-full w-full object-cover"
+              unoptimized
+            />
           </div>
           <span className="text-xl font-bold text-[var(--dash-header-text)]">Fahrly</span>
         </div>

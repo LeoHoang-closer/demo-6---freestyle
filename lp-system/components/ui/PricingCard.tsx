@@ -1,5 +1,6 @@
 import React from 'react';
-import { spacing, typography, colors, components, ColorTheme } from '../../config/design-system';
+import React from 'react';
+import { ColorTheme } from '../../config/design-system';
 import { CTAButton } from './CTAButton';
 
 export type PricingCardProps = {
@@ -30,7 +31,6 @@ export function PricingCard({
   features,
   ctaLabel,
   theme,
-  isHighlighted = false,
   bottomNoteLeft,
   bottomNoteRight,
   className = '',

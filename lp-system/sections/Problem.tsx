@@ -5,19 +5,19 @@ import React from 'react';
 export function Problem({ locale = 'en' }: { locale?: 'en' | 'de' }) {
   const content = locale === 'en' ? {
     eyebrow: "The Real Cost of Running Blind",
-    title: "Most DSP owners don't know how much overtime is costing them. Until it's too late.",
-    subtitle: "Excel and WhatsApp weren't built for 50-driver fleets. Every hour without visibility is an hour of avoidable loss.",
+    title: "Most DSP owners don&apos;t know how much overtime is costing them. Until it&apos;s too late.",
+    subtitle: "Excel and WhatsApp weren&apos;t built for 50-driver fleets. Every hour without visibility is an hour of avoidable loss.",
     cards: [
       {
         icon: <ClockIcon />,
         title: "Overtime is eating your margins",
-        body: "Your drivers are consistently finishing 45–90 minutes late. You don't see it until payroll — by then, the damage is done.",
+        body: "Your drivers are consistently finishing 45–90 minutes late. You don&apos;t see it until payroll — by then, the damage is done.",
         stat: "Avg €8,400/month in hidden overtime costs"
       },
       {
         icon: <RouteIcon />,
         title: "Route workloads are guesswork",
-        body: "Some drivers finish at 3pm. Others are still out at 7pm. Without route balance data, you're relying on tribal knowledge and luck.",
+        body: "Some drivers finish at 3pm. Others are still out at 7pm. Without route balance data, you&apos;re relying on tribal knowledge and luck.",
         stat: "31% of routes are imbalanced on any given day"
       },
       {

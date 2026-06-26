@@ -1,9 +1,8 @@
 import React from 'react';
-import { components, colors, ColorTheme } from '../../config/design-system';
+import { colors } from '../../config/design-system';
 
 export type CTAButtonProps = {
   variant: 'primary' | 'ghost';
-  theme: ColorTheme;
   label: string;
   onClick?: () => void;
   type?: 'button' | 'submit' | 'reset';
@@ -17,8 +16,7 @@ export type CTAButtonProps = {
  * Does NOT own: Layout spacing
  */
 export function CTAButton({
-  variant,
-  theme,
+  variant = 'primary',
   label,
   onClick,
   type = 'button',
@@ -27,15 +25,12 @@ export function CTAButton({
   // Use semantic tokens only - no theme branching
   // Primary variant: uses semantic CTA tokens (black in light mode, white in dark mode)
   // Ghost variant: uses semantic border/text tokens
-  const baseClasses = variant === 'primary' 
-    ? components.button.primary.base 
-    : components.button.secondary.base;
   
+  const baseStyles = "inline-flex items-center justify-center font-bold transition-all active:scale-[0.98] outline-none focus-visible:ring-2 ring-blue-500";
   let variantClasses: string;
   
   if (variant === 'primary') {
     // Primary uses semantic CTA tokens (no theme branching)
-    // Hover and active states use token-based classes that adapt automatically
     variantClasses = `${colors.light.primary.bg} ${colors.light.primary.text} ${colors.light.primary.hover} ${colors.light.primary.active}`;
   } else {
     // Ghost/secondary variant: white base, semantic tokens in both modes (no theme branching)
@@ -49,7 +44,7 @@ export function CTAButton({
     <button
       type={type}
       onClick={onClick}
-      className={`${baseClasses} ${variantClasses} cursor-pointer ${className}`}
+      className={`${baseStyles} ${variantClasses} cursor-pointer ${className}`}
     >
       {label}
     </button>

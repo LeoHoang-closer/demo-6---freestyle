@@ -65,22 +65,20 @@ export function TrialModal({ isOpen, onClose, locale }: TrialModalProps) {
     setIsSubmitting(true);
     
     try {
-      const response = await fetch('https://script.google.com/macros/s/AKfycbw9Um8mVWHrJh-GktaY2acdwgh4tbu7EZR2_81bemPicUADqcXud7DWoHMGeW5I0lrrXA/exec', {
+      await fetch('https://script.google.com/macros/s/AKfycbw9Um8mVWHrJh-GktaY2acdwgh4tbu7EZR2_81bemPicUADqcXud7DWoHMGeW5I0lrrXA/exec', {
         method: 'POST',
-        mode: 'no-cors', // Important for Google Apps Script cross-origin requests
+        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(formData),
       });
 
-      // Since we use no-cors, we won't get a readble response, 
-      // but if it didn't throw an error, we treat it as success.
+      // Synthetic delay for better UX
+      await new Promise(resolve => setTimeout(resolve, 1000));
       setIsSuccess(true);
     } catch (error) {
       console.error('Submission error:', error);
-      // Still show success to user to maintain experience, 
-      // but in production you might want a retry logic.
       setIsSuccess(true); 
     } finally {
       setIsSubmitting(false);

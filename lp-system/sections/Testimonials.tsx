@@ -11,7 +11,7 @@ export function Testimonials({ locale = 'en' }: { locale?: 'en' | 'de' }) {
       {
         company: "MK25 GmbH",
         role: "Geschäftsführer",
-        quote: "We were managing 18 drivers on WhatsApp and three Excel sheets. The first week with Fahrly, we found €150/day in avoidable coordination costs. That's now back in our margin.",
+        quote: "We were managing 18 drivers on WhatsApp and three Excel sheets. The first week with Fahrly, we found €150/day in avoidable coordination costs. That&apos;s now back in our margin.",
         metrics: ["150€ saved per day", "3 hours saved in daily dispatch"],
         modules: ["Fahrly Go"]
       },
@@ -19,14 +19,14 @@ export function Testimonials({ locale = 'en' }: { locale?: 'en' | 'de' }) {
         company: "AC Empire GmbH",
         name: "Alper Coskun",
         role: "Geschäftsführer",
-        quote: "Payroll used to take two hours every week. Every calculation was manual, every error was an argument with a driver. Now it's automated. Drivers trust the numbers. I trust the numbers.",
+        quote: "Payroll used to take two hours every week. Every calculation was manual, every error was an argument with a driver. Now it&apos;s automated. Drivers trust the numbers. I trust the numbers.",
         metrics: ["2 hours saved per week on payroll", "€2,000+ saved annually"],
         modules: ["Fahrly Go", "Human Resource"]
       },
       {
         company: "Atash GmbH",
         role: "Fleet Manager",
-        quote: "We had three vehicles go into unexpected repair in one quarter. Since using Fahrly's maintenance alerts, we've had zero unplanned workshop visits. That alone paid for the software five times over.",
+        quote: "We had three vehicles go into unexpected repair in one quarter. Since using Fahrly&apos;s maintenance alerts, we&apos;ve had zero unplanned workshop visits. That alone paid for the software five times over.",
         metrics: ["30% fewer unplanned repairs", "€500+ saved per month"],
         modules: ["Fahrly Go", "Fleet Management", "Compliance"]
       }

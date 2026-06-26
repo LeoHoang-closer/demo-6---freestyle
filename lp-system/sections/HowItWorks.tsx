@@ -22,12 +22,12 @@ export function HowItWorks({ locale = 'en', onTrialClick }: { locale?: 'en' | 'd
       {
         id: "03",
         title: "See where money is being lost — today",
-        body: "Within hours of connecting, you'll see your first profitability breakdown. Real overtime costs. Underperforming routes. At-risk drivers. All in one dashboard.",
+        body: "Within hours of connecting, you&apos;ll see your first profitability breakdown. Real overtime costs. Underperforming routes. At-risk drivers. All in one dashboard.",
         icon: <ChartIcon />
       }
     ],
     quote: {
-      text: "Within the first week, I found out we were losing €620/month on one vehicle alone. That's money I never would have found in Excel.",
+      text: "Within the first week, I found out we were losing €620/month on one vehicle alone. That&apos;s money I never would have found in Excel.",
       author: "DSP Owner, Cologne (12 vans, 18 drivers)"
     },
     ctaPrefix: "Start your free trial — no contract required",

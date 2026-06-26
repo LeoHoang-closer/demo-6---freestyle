@@ -1,6 +1,6 @@
 import React from 'react';
-import { ColorTheme } from '../../config/design-system';
-import { components, colors } from '../../config/design-system';
+import Image from 'next/image';
+import { ColorTheme, colors, components } from '../../config/design-system';
 
 export type MediaContainerProps = {
   theme: ColorTheme;
@@ -34,7 +34,6 @@ export function MediaContainer({
     ? `border ${colors.dark.border.subtle}`
     : `border ${themeColors.border.subtle}`;
   
-  const textColor = 'text-text-muted';
   const mediaOverlay = isDark ? components.media.overlay : '';
   const aspectRatioClass = components.media.aspectRatios[aspectRatio];
   
@@ -57,10 +56,13 @@ export function MediaContainer({
         ${mediaOverlay}
       `}>
         {src ? (
-          <img 
+          <Image 
             src={src} 
             alt={alt} 
+            width={800}
+            height={600}
             className="w-full h-full object-cover object-center"
+            unoptimized
           />
         ) : children || null}
       </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { spacing, colors, components, ColorTheme } from '../../config/design-system';
 
 export type LogoCellProps = {
@@ -37,9 +38,11 @@ export function LogoCell({ src, alt, theme, className = '', wrapperClassName = '
       `}
     >
       {src ? (
-        <img
+        <Image
           src={src}
           alt={alt}
+          width={100}
+          height={40}
           className={`
             ${spacing.logo.height.md}
             w-auto
@@ -48,6 +51,7 @@ export function LogoCell({ src, alt, theme, className = '', wrapperClassName = '
             ${components.transition.default}
             ${className}
           `}
+          unoptimized
         />
       ) : (
         <div className={`
