@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
 
 export function HowItWorks({ locale = 'en', onTrialClick }: { locale?: 'en' | 'de', onTrialClick?: () => void }) {
   const content = locale === 'en' ? {
@@ -110,7 +109,7 @@ export function HowItWorks({ locale = 'en', onTrialClick }: { locale?: 'en' | 'd
         <div className="mt-24 max-w-3xl mx-auto">
           <blockquote className="border-l-4 border-blue-500 bg-white/3 p-8 rounded-r-2xl">
             <p className="text-xl text-gray-300 italic mb-4 leading-relaxed">
-              "{content.quote.text}"
+              &quot;{content.quote.text}&quot;
             </p>
             <footer className="text-gray-500 text-sm font-medium">
               — {content.quote.author}

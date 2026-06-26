@@ -32,9 +32,9 @@ const COPY = {
     socialProof: "Über 500 Flottenbetreiber in Deutschland vertrauen uns",
     dashboard: {
       title: "Heutige Flotten-Performance",
-      metric1: { label: "Überstunden", value: "47h", badge: "↑ 23% vs. Vorwoche", type: "red" },
-      metric2: { label: "Abgeschlossene Routen", value: "83/91", badge: "91%", type: "amber" },
-      metric3: { label: "Gewinn pro Route", value: "€12,40", badge: "↓ €3,20 Verlust durch Überstunden", type: "green" },
+      metric1: { label: "Überstunden", value: "47h", badge: "↑ 23% vs. Vorwoche", type: "red" as const },
+      metric2: { label: "Abgeschlossene Routen", value: "83/91", badge: "91%", type: "amber" as const },
+      metric3: { label: "Gewinn pro Route", value: "€12,40", badge: "↓ €3,20 Verlust durch Überstunden", type: "green" as const },
     }
   }
 };
@@ -44,7 +44,8 @@ export function Hero({ locale = 'en', onTrialClick }: HeroProps) {
   const content = COPY[locale];
 
   useEffect(() => {
-    setIsVisible(true);
+    const timer = setTimeout(() => setIsVisible(true), 50);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
@@ -153,8 +154,8 @@ export function Hero({ locale = 'en', onTrialClick }: HeroProps) {
   );
 }
 
-function MetricRow({ data }: { data: any }) {
-  const badgeColors = {
+function MetricRow({ data }: { data: { label: string; value: string; badge: string; type: string } }) {
+  const badgeColors: Record<string, string> = {
     red: "bg-red-500/10 text-red-400 border-red-500/20",
     amber: "bg-amber-500/10 text-amber-400 border-amber-500/20",
     green: "bg-green-500/10 text-green-400 border-green-500/20",
@@ -166,7 +167,7 @@ function MetricRow({ data }: { data: any }) {
         <p className="text-xs text-gray-500 font-medium mb-1">{data.label}</p>
         <p className="text-xl font-bold text-gray-900 dark:text-white">{data.value}</p>
       </div>
-      <div className={`text-[10px] sm:text-xs font-bold px-2 py-1 rounded border ${badgeColors[data.type as keyof typeof badgeColors]}`}>
+      <div className={`text-[10px] sm:text-xs font-bold px-2 py-1 rounded border ${badgeColors[data.type]}`}>
         {data.badge}
       </div>
     </div>

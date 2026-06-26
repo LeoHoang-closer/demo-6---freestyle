@@ -2,7 +2,7 @@ import type { PageCopyConfig } from '../config/types';
 import enData from './en.json';
 import deData from './de.json';
 
-const localeData: Record<'en' | 'de', any> = {
+const localeData: Record<'en' | 'de', Record<string, unknown>> = {
   en: enData,
   de: deData,
 };
@@ -12,7 +12,7 @@ export function loadPageCopy(
   lpId: string
 ): PageCopyConfig | null {
   const data = localeData[locale];
-  return data[lpId] || null;
+  return (data[lpId] as PageCopyConfig) || null;
 }
 
 export type ShellMessages = {

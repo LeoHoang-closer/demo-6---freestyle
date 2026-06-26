@@ -111,7 +111,7 @@ export function Testimonials({ locale = 'en' }: { locale?: 'en' | 'de' }) {
             >
               <blockquote className="flex-grow mb-8">
                 <p className="text-gray-700 dark:text-gray-300 italic text-lg leading-relaxed">
-                  "{t.quote}"
+                  &quot;{t.quote}&quot;
                 </p>
               </blockquote>
               

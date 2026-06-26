@@ -13,7 +13,6 @@ export type NavbarProps = {
 const NAV_LINKS = [
   { id: 'features', label: { en: 'Features', de: 'Funktionen' } },
   { id: 'how-it-works', label: { en: 'How It Works', de: 'Wie es funktioniert' } },
-  { id: 'stories', label: { en: 'Stories', de: 'Berichte' } },
   { id: 'pricing', label: { en: 'Pricing', de: 'Preise' } },
   { id: 'faq', label: { en: 'FAQ', de: 'FAQ' } },
 ];

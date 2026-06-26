@@ -40,8 +40,34 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Deploy on Cloudflare Pages
+
+This project is optimized for Cloudflare Pages using static export.
+
+1. **Build and Export**:
+   ```bash
+   npm run pages:build
+   ```
+   This generates a production-ready static site in the `out/` directory.
+
+2. **Preview Locally**:
+   ```bash
+   npm run pages:preview
+   ```
+   Uses Wrangler to preview the static site locally.
+
+3. **Deploy from CLI**:
+   ```bash
+   npm run pages:deploy
+   ```
+   Deploys the site directly to Cloudflare Pages.
+
+For automated deployments, connect your repository to Cloudflare Pages and set:
+- **Framework Preset**: `None` or `Static`
+- **Build Command**: `npm run build`
+- **Build Output Directory**: `out`
+
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
