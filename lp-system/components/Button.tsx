@@ -26,7 +26,6 @@ export function Button({
   return (
     <CTAButton
       variant={variant === 'primary' ? 'primary' : 'ghost'}
-      theme={theme}
       label={typeof children === 'string' ? children : ''}
       onClick={onClick}
       type={type}

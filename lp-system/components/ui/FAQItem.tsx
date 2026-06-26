@@ -1,5 +1,5 @@
 import React from 'react';
-import { spacing, components, ColorTheme } from '../../config/design-system';
+import { spacing, components, ColorTheme, typography } from '../../config/design-system';
 
 export type FAQItemProps = {
   theme: ColorTheme;

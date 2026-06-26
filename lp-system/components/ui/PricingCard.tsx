@@ -1,5 +1,4 @@
 import React from 'react';
-import React from 'react';
 import { ColorTheme } from '../../config/design-system';
 import { CTAButton } from './CTAButton';
 
@@ -92,7 +91,7 @@ export function PricingCard({
           </div>
         )}
         
-        <CTAButton variant="primary" theme={theme} label={ctaLabel} />
+        <CTAButton variant="primary" label={ctaLabel} />
       </div>
     </div>
   );
